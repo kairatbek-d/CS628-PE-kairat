@@ -1,0 +1,88 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  background-color: #393939;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+nav h1 {
+  color: #fff;
+  font-size: 35px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav li {
+  margin: 10px 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: large;
+}
+
+.cities-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  padding: 20px 20px;
+  margin-top: 10px;
+  border: 1px solid #C0C0C0;
+  box-shadow: 2px 2px #888888;
+}
+
+.cities-list ul {
+  list-style: none;
+  padding: 0;
+  text-align: left
+}
+
+.cities-list li {
+  margin: 5px 0px;
+}
+
+.city-details-container {
+  margin-top:20px;
+}
+
+.city-details {
+  text-align: left;
+  padding: 10px 0;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.add-city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 20px 0;
+  border: 1px solid #C0C0C0;
+  box-shadow: 2px 2px #888888;
+}
+
+.add-city form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.add-city label {
+  margin-bottom: 10px;
+  text-align: left;
+}
